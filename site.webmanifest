@@ -1,0 +1,7 @@
+{
+  "name": "Doctor24",
+  "short_name": "Doctor24",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "A doctor when you need one."
+}
