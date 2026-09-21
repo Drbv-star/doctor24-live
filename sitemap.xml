@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://doctor24.live/</loc></url>
+
+  <url>
+    <loc>https://doctor24.live/</loc>
+  </url>
+
+  <url>
+    <loc>https://doctor24.live/about/</loc>
+  </url>
+
+  <url>
+    <loc>https://doctor24.live/health/</loc>
+  </url>
+
+  <url>
+    <loc>https://doctor24.live/health/fever/</loc>
+  </url>
+
+  <url>
+    <loc>https://doctor24.live/health/cold-cough/</loc>
+  </url>
+
+  <url>
+    <loc>https://doctor24.live/health/headache/</loc>
+  </url>
+
+  <url>
+    <loc>https://doctor24.live/health/stomach-pain/</loc>
+  </url>
+
+  <url>
+    <loc>https://doctor24.live/health/vomiting-diarrhea/</loc>
+  </url>
+
 </urlset>
