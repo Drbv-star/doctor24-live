@@ -8,3 +8,5 @@ Primary flow:
 Doctor24.live → WhatsApp → doctor review/triage → appropriate consultation.
 
 Emergency disclaimer is included. This package is not a substitute for reviewing applicable telemedicine, privacy, professional-conduct, and advertising requirements before public launch.
+
+Cloudflare deployment trigger
