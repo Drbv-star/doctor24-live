@@ -48,6 +48,13 @@ section{padding:82px 0}.section-head{text-align:center;max-width:700px;margin:0 
 .final{background:#eaf7f5;text-align:center}.final h2{font-size:40px;letter-spacing:-1.4px;margin:0 0 10px}.final p{color:var(--muted);margin:0 auto 25px;max-width:600px}
 .notice{margin-top:30px;background:#fff7e9;border:1px solid #f1dfbd;border-radius:15px;padding:17px;text-align:left;color:#6b542b;font-size:13px}
 footer{background:var(--dark);color:#b9c9ce;padding:42px 0}.foot{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}.foot strong{color:#fff;font-size:19px}.foot small{display:block;margin-top:10px;max-width:650px;line-height:1.7}.contact a{color:#d9fffb;text-decoration:none}.mobile-book{display:none}
+.health-preview{background:#f7fbfa}
+.health-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.health-card{background:#fff;border:1px solid var(--line);border-radius:19px;padding:27px;box-shadow:0 10px 35px rgba(11,31,42,.035)}
+.health-card h3{margin:0 0 8px;font-size:19px}
+.health-card p{margin:0 0 15px;color:var(--muted);font-size:14px}
+.health-card a{color:var(--brand);font-weight:800;text-decoration:none}
+.health-more{text-align:center;margin-top:30px}
 @media(max-width:800px){.nav{height:68px}.navlink{display:none}.hero{padding:50px 0}.hero-grid,.about-grid{grid-template-columns:1fr;gap:35px}.hero h1{letter-spacing:-2.2px}.doctor-card{order:-1}.portrait{height:280px}.problem-grid,.steps{grid-template-columns:1fr}.trust-row{gap:15px;justify-content:flex-start}.section-head h2,.about h2,.final h2{font-size:32px}.includes{grid-template-columns:1fr}.mobile-book{display:block;position:fixed;bottom:14px;left:14px;right:14px;z-index:20}.mobile-book a{width:100%;box-shadow:0 10px 30px #0b1f2a30}body{padding-bottom:72px}}
 
 /* Doctor24 UI polish */
@@ -74,7 +81,7 @@ section{padding:92px 0}.section-head{margin-bottom:48px}.section-head h2{font-we
 .final{padding:80px 0;background:linear-gradient(135deg,#eaf8f6,#f7fbfb)}
 footer{padding:45px 0}.foot{align-items:flex-start}
 @media(max-width:800px){
- .hero{padding:52px 0 60px}.hero-grid{gap:30px}.doctor-card{order:-1}.brand-hero{height:290px}.logo-large{font-size:39px}.logo-large span{width:52px;height:52px}
+ .health-grid{grid-template-columns:1fr}.hero{padding:52px 0 60px}.hero-grid{gap:30px}.doctor-card{order:-1}.brand-hero{height:290px}.logo-large{font-size:39px}.logo-large span{width:52px;height:52px}
  .trust-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.trust-row span,.trust-row span:first-child,.trust-row span:last-child{padding:0;border:0}
  section{padding:68px 0}.about-grid{gap:35px}.about-photo{height:230px!important;max-width:230px!important}
 }
@@ -96,7 +103,7 @@ footer{padding:45px 0}.foot{align-items:flex-start}
 <header>
 <div class="wrap nav">
   <div class="logo"><div class="mark">+</div>Doctor24</div>
-  <div><a class="navlink" href="#how">How it works</a><a class="navlink" href="#doctor">About doctor</a><a class="btn btn-primary" data-wa href="#">Consult a Doctor</a></div>
+  <div><a class="navlink" href="#how">How it works</a><a class="navlink" href="/health/">Health Guides</a><a class="navlink" href="#doctor">About doctor</a><a class="btn btn-primary" data-wa href="#">Consult a Doctor</a></div>
 </div>
 </header>
 
@@ -137,6 +144,42 @@ footer{padding:45px 0}.foot{align-items:flex-start}
   <div class="problem-card"><h3>Medication questions</h3><p>Discuss medicines, side effects or concerns with a qualified doctor.</p></div>
   <div class="problem-card"><h3>General health concerns</h3><p>If something doesn't feel right, start by speaking with a doctor.</p></div>
 </div>
+</div>
+</section>
+
+<section class="health-preview">
+<div class="wrap">
+<div class="section-head">
+<h2>Health guides for common questions.</h2>
+<p>Practical, doctor-reviewed information about common symptoms, warning signs and when professional medical evaluation may be appropriate.</p>
+</div>
+
+<div class="health-grid">
+
+<div class="health-card">
+<h3>Fever in adults</h3>
+<p>Common causes, what you can do, warning signs and when to see a doctor.</p>
+<a href="/health/fever/">Read guide →</a>
+</div>
+
+<div class="health-card">
+<h3>Cold &amp; cough</h3>
+<p>Understand common causes, supportive care and symptoms that need medical attention.</p>
+<a href="/health/cold-cough/">Read guide →</a>
+</div>
+
+<div class="health-card">
+<h3>Headache</h3>
+<p>Common headache patterns, self-care and warning signs that may need evaluation.</p>
+<a href="/health/headache/">Read guide →</a>
+</div>
+
+</div>
+
+<div class="health-more">
+<a class="btn btn-light" href="/health/">Explore all Health Guides →</a>
+</div>
+
 </div>
 </section>
 
